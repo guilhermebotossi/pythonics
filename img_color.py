@@ -27,7 +27,7 @@ for i in range(len(list)):
     #print 
     
 #print text    
-img = Image.new('RGB', (w * 5, h * 5), color = (255, 255, 255))
+img = Image.new('RGB', (w * 4, h * 6), color = (255, 255, 255))
 d = ImageDraw.Draw(img)
 font = ImageFont.truetype("arial.ttf", 5)
 d.text((1,1), text, fill=(0, 0, 0), font = font)

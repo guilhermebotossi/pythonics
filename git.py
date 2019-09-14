@@ -5,8 +5,8 @@ import re
 from datetime import datetime
 import time
 
-username = 'guilhermebotossi@gmail.com'
-token = 'd2bdcf02c03ac7137a07b17f7814378398cd4ebf'
+username = ''
+token = ''
 config_key_regex_pattern = "\@Config\.Key\(\"(.*)\"\)\s+\@DefaultValue\(\"(.*)\"\)|\@DefaultValue\(\"(.*)\"\)\s+\@Config\.Key\(\"(.*)\"\)|\@Config\.Key\(\"(.*)\"\)"
 config_key_regex = re.compile(config_key_regex_pattern)
 key_regex_pattern = "\@Key\(\"(.*)\"\)\s+\@DefaultValue\(\"(.*)\"\)|\@DefaultValue\(\"(.*)\"\)\s+\@Key\(\"(.*)\"\)|\@Key\(\"(.*)\"\)"
